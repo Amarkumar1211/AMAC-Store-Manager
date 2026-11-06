@@ -1,0 +1,64 @@
+# AMAC Store & Material Management System - Git Ignore
+
+# Build & Compilation Outputs
+bin/
+obj/
+publish/
+dist/
+dist-desktop/
+dist-installer/
+backend/wwwroot/assets/
+
+# Node & Frontend Dependencies
+node_modules/
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Executables, Installers & Binaries
+*.exe
+*.dll
+*.pdb
+*.msi
+*.iso
+cloudflared.exe
+StoreManager_Setup*.exe
+
+# Databases & Local Data
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.mdf
+*.ldf
+
+# Environment, Secrets & Local Overrides
+*.local
+.env
+.env.*
+!.env.example
+
+# IDE, OS & Editor Caches
+.vs/
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary / Scratch Files
+*.log
+logs/
+frontend/find.cjs
+frontend/fix.cjs
+frontend/fix.cs
+frontend/fix2.cjs
